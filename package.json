@@ -23,6 +23,9 @@
     "url": "https://github.com/digitalbazaar/bedrock-session-mongodb/issues"
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-session-mongodb",
+  "dependencies": {
+    "connect-mongo": "~0.4.1"
+  },
   "peerDependencies": {
     "bedrock": "~0.3.0"
   },
