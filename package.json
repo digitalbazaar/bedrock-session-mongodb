@@ -27,7 +27,9 @@
     "connect-mongo": "~0.4.1"
   },
   "peerDependencies": {
-    "bedrock": "~0.3.0"
+    "bedrock": "~0.3.0",
+    "bedrock-express": "~0.0.1",
+    "bedrock-mongodb": "~0.0.1"
   },
   "directories": {
     "lib": "./lib"
