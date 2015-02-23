@@ -28,7 +28,7 @@
   },
   "peerDependencies": {
     "bedrock": "~0.3.0",
-    "bedrock-express": "~0.1.0",
+    "bedrock-express": "~0.1.0 || ~0.2.0",
     "bedrock-mongodb": "~0.1.0"
   },
   "directories": {
