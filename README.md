@@ -1,7 +1,3 @@
-
-Bedrock session support via mongodb
-
-
 # bedrock-session-mongodb
 
 A [bedrock][] module that creates a simple MongoDB session and provides an
