@@ -2,7 +2,7 @@
   "name": "bedrock-session-mongodb",
   "version": "0.1.2-dev",
   "description": "Bedrock session mongodb module",
-  "main": "./lib/sessionStore"
+  "main": "./lib/sessionStore",
   "scripts": {
     "test": "node test.js"
   },
