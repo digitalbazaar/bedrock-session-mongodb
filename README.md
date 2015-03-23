@@ -1,7 +1,6 @@
 # bedrock-session-mongodb
 
-A [bedrock][] module that creates a simple MongoDB session and provides an
-easy API for creating and working with session.
+A [bedrock][] module that enables [express][] session storage via [MongoDB][].
 
 ## Quick Examples
 
@@ -9,18 +8,33 @@ easy API for creating and working with session.
 npm install bedrock-session-mongodb
 ```
 
-```js
-var database = require('bedrock-session-mongodb');
+Simply require the `bedrock-session-mongodb` module along with the
+[bedrock-express][] module and then any [express][] session information will
+be persisted via [MongoDB][].
 
-TODO
+```js
+var bedrock = require('bedrock');
+
+// modules
+require('bedrock-server');
+require('bedrock-express');
+require('bedrock-session-mongodb');
+
+bedrock.events.on('bedrock-express.configure.routes', function(app) {
+  app.get('/', function(req, res) {
+    res.send('Hello World!');
+  });
+});
+
+bedrock.start();
 ```
 
 ## Configuration
 
-TODO
+For documentation on configuration, see [config.js](https://github.com/digitalbazaar/bedrock-session-mongodb/blob/master/lib/config.js).
 
-## How It Works
-
-TODO
 
 [bedrock]: https://github.com/digitalbazaar/bedrock
+[bedrock-express]: https://github.com/digitalbazaar/bedrock-express
+[express]: https://github.com/strongloop/express
+[MongoDB]: https://www.mongodb.org/
