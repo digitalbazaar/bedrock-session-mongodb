@@ -31,7 +31,7 @@ bedrock.start();
 
 ## Configuration
 
-For documentation on configuration, see [config.js](https://github.com/digitalbazaar/bedrock-session-mongodb/blob/master/lib/config.js).
+For documentation on configuration, see [config.js](./lib/config.js).
 
 
 [bedrock]: https://github.com/digitalbazaar/bedrock
