@@ -1,6 +1,6 @@
 {
   "name": "bedrock-session-mongodb",
-  "version": "0.1.2-dev",
+  "version": "1.0.0",
   "description": "Bedrock session mongodb module",
   "main": "./lib/sessionStore",
   "scripts": {
@@ -27,9 +27,9 @@
     "connect-mongo": "~0.4.2"
   },
   "peerDependencies": {
-    "bedrock": "~0.3.0",
-    "bedrock-express": "~0.1.0 || ~0.2.0",
-    "bedrock-mongodb": "~0.1.0"
+    "bedrock": "^1.0.0",
+    "bedrock-express": "^1.0.0",
+    "bedrock-mongodb": "^1.0.0"
   },
   "directories": {
     "lib": "./lib"
