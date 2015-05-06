@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+### Changed
+- Updated to connect-mongo 0.8.1.
+
 ## [1.0.0] - 2015-04-08
 
 ### Removed
