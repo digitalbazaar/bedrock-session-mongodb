@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-session-mongodb",
   "dependencies": {
-    "connect-mongo": "~0.4.2"
+    "connect-mongo": "~0.5.3"
   },
   "peerDependencies": {
     "bedrock": "^1.0.0",
