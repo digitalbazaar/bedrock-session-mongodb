@@ -2,6 +2,10 @@
 
 A [bedrock][] module that enables [express][] session storage via [MongoDB][].
 
+## Requirements
+
+- npm v3+
+
 ## Quick Examples
 
 ```

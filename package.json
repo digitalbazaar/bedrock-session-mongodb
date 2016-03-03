@@ -1,6 +1,6 @@
 {
   "name": "bedrock-session-mongodb",
-  "version": "1.0.2-dev",
+  "version": "2.0.0-dev",
   "description": "Bedrock session mongodb module",
   "main": "./lib/sessionStore",
   "scripts": {
@@ -24,12 +24,15 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-session-mongodb",
   "dependencies": {
+    "bedrock": "^1.0.0",
+    "bedrock-express": "^2.0.0",
+    "bedrock-mongodb": "^2.0.0",
     "connect-mongo": "~0.8.1"
   },
   "peerDependencies": {
     "bedrock": "^1.0.0",
-    "bedrock-express": "^1.0.0",
-    "bedrock-mongodb": "^1.0.0"
+    "bedrock-express": "^2.0.0",
+    "bedrock-mongodb": "^2.0.0"
   },
   "directories": {
     "lib": "./lib"
