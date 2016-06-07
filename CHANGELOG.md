@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [2.0.2] - 2016-06-07
+
 ### Changed
 - Update connect-mongo dependency.
 
@@ -34,7 +36,8 @@
 
 - See git history for changes.
 
-[Unreleased]: https://github.com/digitalbazaar/bedrock-session-mongodb/compare/2.0.1...HEAD
+[Unreleased]: https://github.com/digitalbazaar/bedrock-session-mongodb/compare/2.0.2...HEAD
+[2.0.2]: https://github.com/digitalbazaar/bedrock-session-mongodb/compare/2.0.1...2.0.2
 [2.0.1]: https://github.com/digitalbazaar/bedrock-session-mongodb/compare/2.0.0...2.0.1
 [2.0.0]: https://github.com/digitalbazaar/bedrock-session-mongodb/compare/1.0.1...2.0.0
 [1.0.1]: https://github.com/digitalbazaar/bedrock-session-mongodb/compare/1.0.0...1.0.1
