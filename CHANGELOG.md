@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+### Changed
+- Update connect-mongo dependency.
+
 ## [2.0.1] - 2016-03-15
 
 ### Changed
