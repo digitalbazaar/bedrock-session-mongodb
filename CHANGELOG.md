@@ -1,6 +1,9 @@
 # bedrock-session-mongodb ChangeLog
 
-## [Unreleased]
+### Fixed
+- Fix potential deadlock issue; do not prevent express startup or
+  configuration while waiting for database ready event, rather
+  prevent express readiness.
 
 ## [2.0.2] - 2016-06-07
 
