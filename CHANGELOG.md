@@ -2,6 +2,7 @@
 
 ### Changed
 - Update `bedrock-mongodb` peer dependency.
+- Update `connect-mongo` dependency.
 
 ## 2.0.3 - 2016-09-27
 
