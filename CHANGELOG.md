@@ -1,5 +1,7 @@
 # bedrock-session-mongodb ChangeLog
 
+## 3.0.0 - 2018-03-26
+
 ### Changed
 - **BREAKING**: Update `connect-mongo` dependency.
 - Update `bedrock-mongodb` peer dependency.
