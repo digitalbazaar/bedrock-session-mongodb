@@ -1,5 +1,8 @@
 # bedrock-session-mongodb ChangeLog
 
+### Changed
+- Update `bedrock-mongodb` peer dependency.
+
 ## 2.0.3 - 2016-09-27
 
 ### Fixed

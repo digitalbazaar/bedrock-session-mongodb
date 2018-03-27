@@ -29,7 +29,7 @@
   "peerDependencies": {
     "bedrock": "^1.0.0",
     "bedrock-express": "^2.0.3",
-    "bedrock-mongodb": "^3.0.0"
+    "bedrock-mongodb": "3.x - 5.x"
   },
   "directories": {
     "lib": "./lib"
