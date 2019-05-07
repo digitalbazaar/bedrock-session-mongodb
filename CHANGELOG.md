@@ -1,5 +1,10 @@
 # bedrock-session-mongodb ChangeLog
 
+## 3.0.1 - 2019-05-07
+
+### Fixed
+- Delay server listening until session storage is ready.
+
 ## 3.0.0 - 2018-03-26
 
 ### Changed
