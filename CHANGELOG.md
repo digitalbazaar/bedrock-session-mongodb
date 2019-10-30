@@ -1,5 +1,8 @@
 # bedrock-session-mongodb ChangeLog
 
+### Changed
+- Update to latest bedrock events API.
+
 ## 3.0.1 - 2019-05-07
 
 ### Fixed
