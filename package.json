@@ -3,9 +3,6 @@
   "version": "3.0.2-0",
   "description": "Bedrock session mongodb module",
   "main": "./lib/sessionStore",
-  "scripts": {
-    "test": "node test.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/digitalbazaar/bedrock-session-mongodb"
@@ -17,7 +14,7 @@
   "author": {
     "name": "Digital Bazaar, Inc.",
     "email": "support@digitalbazaar.com",
-    "url": "http://digitalbazaar.com"
+    "url": "https://digitalbazaar.com/"
   },
   "bugs": {
     "url": "https://github.com/digitalbazaar/bedrock-session-mongodb/issues"
