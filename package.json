@@ -3,6 +3,9 @@
   "version": "3.1.1-0",
   "description": "Bedrock session mongodb module",
   "main": "./lib/sessionStore",
+  "scripts": {
+    "lint": "eslint lib test"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/digitalbazaar/bedrock-session-mongodb"
@@ -30,5 +33,9 @@
   },
   "directories": {
     "lib": "./lib"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-digitalbazaar": "^2.3.0"
   }
 }
