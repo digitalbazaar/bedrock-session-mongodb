@@ -13,3 +13,8 @@ config.mongodb.name = 'bedrock_session_mongodb_test';
 config.mongodb.dropCollections = {};
 config.mongodb.dropCollections.onInit = true;
 config.mongodb.dropCollections.collections = [];
+
+// Session Settings
+config.express.session.secret = 'NOTASECRET';
+config.express.session.key = 'test-node.sid';
+config.express.session.prefix = 'test-node.';
