@@ -1,5 +1,15 @@
 # bedrock-session-mongodb ChangeLog
 
+## 4.0.0 -
+
+### Changed
+  - **BREAKING**: Upgrade `bedrock-mongodb` to ^7.0.0.
+  - **BREAKING**: Change dbPromise to clientPromise.
+  - **BREAKING**: Upgrade `connect-mongo` to ^3.2.0.
+
+### Added
+  - Add a test for basic functionality.
+
 ## 3.1.0 - 2019-11-08
 
 ### Changed
