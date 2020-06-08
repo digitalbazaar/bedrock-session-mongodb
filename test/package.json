@@ -11,7 +11,7 @@
   "dependencies": {
     "bedrock": "^3.1.0",
     "bedrock-express": "^3.1.0",
-    "bedrock-mongodb": "digitalbazaar/bedrock-mongodb#driver3",
+    "bedrock-mongodb": "^7.0.0",
     "bedrock-server": "^2.4.1",
     "bedrock-session-mongodb": "file:..",
     "bedrock-test": "^5.1.0",
