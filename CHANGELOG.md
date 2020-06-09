@@ -1,6 +1,6 @@
 # bedrock-session-mongodb ChangeLog
 
-## 4.0.0 -
+## 4.0.0 - 2020-06-09
 
 ### Changed
 - **BREAKING**: Upgrade `bedrock-mongodb` to ^7.0.0.
