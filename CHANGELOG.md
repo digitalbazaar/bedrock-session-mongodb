@@ -4,8 +4,8 @@
 
 ### Changed
 - **BREAKING**: Upgrade `bedrock-mongodb` to ^7.0.0.
-- **BREAKING**: Change dbPromise to clientPromise.
 - **BREAKING**: Upgrade `connect-mongo` to ^3.2.0.
+- Change dbPromise to clientPromise for `connect-mongo`.
 
 ### Added
 - Add a test for basic functionality.
