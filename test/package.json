@@ -9,15 +9,15 @@
     "coverage-report": "nyc report"
   },
   "dependencies": {
-    "bedrock": "^3.1.0",
-    "bedrock-express": "^3.1.0",
-    "bedrock-mongodb": "^7.0.0",
-    "bedrock-server": "^2.4.1",
+    "bedrock": "^3.1.1",
+    "bedrock-express": "^3.2.0",
+    "bedrock-mongodb": "^7.1.0",
+    "bedrock-server": "^2.6.0",
     "bedrock-session-mongodb": "file:..",
-    "bedrock-test": "^5.1.0",
-    "bedrock-validation": "^4.2.0",
+    "bedrock-test": "^5.3.0",
+    "bedrock-validation": "^4.4.0",
     "cross-env": "^7.0.2",
-    "nyc": "^15.0.1"
+    "nyc": "^15.1.0"
   },
   "nyc": {
     "excludeNodeModules": false,
