@@ -1,5 +1,10 @@
 # bedrock-session-mongodb ChangeLog
 
+## 4.1.0 - 2020-07-07
+
+### Changed
+- Update test deps and CI workflow.
+
 ## 4.0.0 - 2020-06-09
 
 ### Changed
