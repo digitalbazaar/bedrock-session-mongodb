@@ -37,6 +37,9 @@ bedrock.start();
 
 For documentation on configuration, see [config.js](./lib/config.js).
 
+`config.session-mongodb.ttl` is a computed property that based off of
+`config.express.session.ttl`. In order to change the ttl for sessions you will
+now need to change the `config.express.session.ttl` using milliseconds.
 
 [bedrock]: https://github.com/digitalbazaar/bedrock
 [bedrock-express]: https://github.com/digitalbazaar/bedrock-express
