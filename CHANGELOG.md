@@ -1,5 +1,11 @@
 # bedrock-session-mongodb ChangeLog
 
+## 4.2.0 -
+
+### Changed
+- `config.session-mongodb.ttl` is now a computed property.
+- `config.session-mongodb.ttl` is now computed from config.express.session.ttl.
+
 ## 4.1.0 - 2020-07-07
 
 ### Changed
