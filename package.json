@@ -29,13 +29,13 @@
   "peerDependencies": {
     "bedrock": "1.0.0 - 3.x",
     "bedrock-express": "2.0.3 - 3.x",
-    "bedrock-mongodb": "^7.1.0"
+    "bedrock-mongodb": "7.x - 8.x"
   },
   "directories": {
     "lib": "./lib"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-digitalbazaar": "^2.3.0"
+    "eslint": "^7.13.0",
+    "eslint-config-digitalbazaar": "^2.6.1"
   }
 }
