@@ -1,6 +1,6 @@
 # bedrock-session-mongodb ChangeLog
 
-## 4.2.0 - 2022-03-xx
+## 4.2.0 - 2022-03-08
 
 ### Changed
 - Update peer dependencies:
