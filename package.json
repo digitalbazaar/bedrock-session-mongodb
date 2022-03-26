@@ -1,6 +1,6 @@
 {
   "name": "bedrock-session-mongodb",
-  "version": "4.2.1-0",
+  "version": "4.3.0",
   "description": "Bedrock session mongodb module",
   "main": "./lib",
   "scripts": {
