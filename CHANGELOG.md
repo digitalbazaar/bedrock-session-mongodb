@@ -1,6 +1,6 @@
 # bedrock-session-mongodb ChangeLog
 
-## 4.3.1 - 2022-03-xx
+## 4.3.1 - 2022-03-27
 
 ### Fixed
 - Add missing `esm` dependency.
