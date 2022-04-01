@@ -1,9 +1,7 @@
-/*
- * Copyright (c) 2020 Digital Bazaar, Inc. All rights reserved.
+/*!
+ * Copyright (c) 2020-2022 Digital Bazaar, Inc. All rights reserved.
  */
-'use strict';
-const bedrock = require('bedrock');
-const {config} = bedrock;
+import {config} from 'bedrock';
 
 describe('session-mongodb API', function() {
   let store;

@@ -1,8 +1,9 @@
 {
-  "name": "bedrock-session-mongodb",
+  "name": "@bedrock/session-mongodb",
   "version": "4.3.2-0",
+  "type": "module",
   "description": "Bedrock session mongodb module",
-  "main": "./lib",
+  "main": "./lib/index.js",
   "scripts": {
     "lint": "eslint lib test"
   },
@@ -24,19 +25,18 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-session-mongodb",
   "dependencies": {
-    "connect-mongo": "^3.2.0",
-    "esm": "^3.2.25"
+    "connect-mongo": "^3.2.0"
   },
   "peerDependencies": {
-    "bedrock": "^4.5.0",
-    "bedrock-express": "^6.4.1",
-    "bedrock-mongodb": "^8.5.0"
+    "@bedrock/core": "^5.0.0",
+    "@bedrock/express": "^7.0.0",
+    "@bedrock/mongodb": "^9.0.0"
   },
   "directories": {
     "lib": "./lib"
   },
   "devDependencies": {
-    "eslint": "^7.13.0",
+    "eslint": "^7.32.0",
     "eslint-config-digitalbazaar": "^2.8.0",
     "eslint-plugin-jsdoc": "^37.9.7",
     "jsdoc-to-markdown": "^6.0.1"

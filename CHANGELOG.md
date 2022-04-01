@@ -1,5 +1,13 @@
 # bedrock-session-mongodb ChangeLog
 
+## 5.0.0 - 2022-04-xx
+
+### Changed
+- **BREAKING**: Rename package to `@bedrock/session-mongodb`.
+- **BREAKING**: Convert to module (ESM).
+- **BREAKING**: Remove default export.
+- **BREAKING**: Require node 14.x.
+
 ## 4.3.1 - 2022-03-27
 
 ### Fixed

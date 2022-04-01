@@ -4,12 +4,12 @@ A [bedrock][] module that enables [express][] session storage via [MongoDB][].
 
 ## Requirements
 
-- npm v3+
+- npm v6+
 
 ## Quick Examples
 
 ```
-npm install bedrock-session-mongodb
+npm install @bedrock/session-mongodb
 ```
 
 Simply require the `bedrock-session-mongodb` module along with the
@@ -17,12 +17,12 @@ Simply require the `bedrock-session-mongodb` module along with the
 be persisted via [MongoDB][].
 
 ```js
-var bedrock = require('bedrock');
+import * as bedrock from '@bedrock/core';
 
 // modules
-require('bedrock-server');
-require('bedrock-express');
-require('bedrock-session-mongodb');
+import '@bedrock/server';
+import '@bedrock/express';
+import '@bedrock/session-mongodb';
 
 bedrock.events.on('bedrock-express.configure.routes', function(app) {
   app.get('/', function(req, res) {
