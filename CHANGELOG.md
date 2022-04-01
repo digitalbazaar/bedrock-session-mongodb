@@ -1,6 +1,6 @@
 # bedrock-session-mongodb ChangeLog
 
-## 5.0.1 - 2022-04-xx
+## 5.0.1 - 2022-04-01
 
 ### Fixed
 - Use `jsdoc-to-markdown@7`.
