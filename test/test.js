@@ -1,11 +1,9 @@
-/*
- * Copyright (c) 2020 Digital Bazaar, Inc. All rights reserved.
+/*!
+ * Copyright (c) 2020-2022 Digital Bazaar, Inc. All rights reserved.
  */
-'use strict';
+import * as bedrock from '@bedrock/core';
+import '@bedrock/mongodb';
+import '@bedrock/session-mongodb';
+import '@bedrock/test';
 
-const bedrock = require('bedrock');
-require('bedrock-mongodb');
-require('bedrock-session-mongodb');
-
-require('bedrock-test');
 bedrock.start();
