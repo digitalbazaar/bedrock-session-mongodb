@@ -1,5 +1,13 @@
 # bedrock-session-mongodb ChangeLog
 
+## 6.0.0 - 2022-04-xx
+
+### Changed
+- **BREAKING**: Update peer deps:
+  - `@bedrock/core@6`
+  - `@bedrock/express@8`
+  - `@bedrock/mongodb@10`.
+
 ## 5.0.1 - 2022-04-01
 
 ### Fixed
