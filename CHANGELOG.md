@@ -1,5 +1,10 @@
 # bedrock-session-mongodb ChangeLog
 
+## 6.1.0 -
+
+### Changed
+- Add support for `@bedrock/mongodb: >= 10`.
+
 ## 6.0.0 - 2022-04-29
 
 ### Changed
