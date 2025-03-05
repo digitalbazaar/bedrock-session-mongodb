@@ -1,5 +1,5 @@
 /*!
- * Copyright (c) 2020-2022 Digital Bazaar, Inc. All rights reserved.
+ * Copyright (c) 2020-2025 Digital Bazaar, Inc. All rights reserved.
  */
 import {config} from '@bedrock/core';
 
@@ -11,10 +11,7 @@ describe('session-mongodb API', function() {
   it('should create a session store', async function() {
     should.exist(store);
     store.should.be.an('object');
-    should.exist(store.state);
-    store.state.should.be.a('string');
-    store.state.should.equal('connected');
-    should.exist(store.db);
-    should.exist(store.client);
+    should.exist(store.clientP);
+    should.exist(store.collectionP);
   });
 }); // end session-mongodb API
