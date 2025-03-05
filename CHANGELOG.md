@@ -4,6 +4,12 @@
 
 ### Changed
 - Update to `connect-mongo@5`.
+- Make the `session-mongodb.ttl` config value default to a value computed
+  from `express.session.ttl`. This does not change the default of 30
+  minutes but it does allow the express session TTL to properly propagate
+  to the `MongoStore` session store instance w/o the need for setting
+  the `session-mongodb.ttl` configuration value independently. It can
+  still be set independently, overiding the computed value if desired.
 
 ## 6.0.0 - 2022-04-29
 
