@@ -1,6 +1,6 @@
 # bedrock-session-mongodb ChangeLog
 
-## 6.1.0 - 2025-mm-dd
+## 6.1.0 - 2025-03-06
 
 ### Changed
 - Update to `connect-mongo@5`.
