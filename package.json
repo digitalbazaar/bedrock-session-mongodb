@@ -28,9 +28,9 @@
     "connect-mongo": "^5.1.0"
   },
   "peerDependencies": {
-    "@bedrock/core": "^6.0.0",
-    "@bedrock/express": "^8.0.0",
-    "@bedrock/mongodb": "^10.0.0"
+    "@bedrock/core": "^6.3.0",
+    "@bedrock/express": "^8.3.1",
+    "@bedrock/mongodb": "^11.0.0"
   },
   "directories": {
     "lib": "./lib"
@@ -39,7 +39,7 @@
     "eslint": "^8.57.1",
     "eslint-config-digitalbazaar": "^5.2.0",
     "eslint-plugin-jsdoc": "^50.6.3",
-    "eslint-plugin-unicorn": "^55.0.0"
+    "eslint-plugin-unicorn": "^56.0.1"
   },
   "engines": {
     "node": ">=18"
