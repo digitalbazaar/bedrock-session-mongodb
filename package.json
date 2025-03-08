@@ -1,6 +1,6 @@
 {
   "name": "@bedrock/session-mongodb",
-  "version": "7.0.0",
+  "version": "7.0.1-0",
   "type": "module",
   "description": "Bedrock session mongodb module",
   "main": "./lib/index.js",
